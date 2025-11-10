@@ -550,3 +550,107 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.jface.internal.text.h
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-10 15:17:22.149
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1601, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-10 15:17:28.973
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1601, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-10 15:17:29.648
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1601, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-10 15:17:29.649
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1757, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-10 15:17:31.251
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1601, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-10 15:17:31.251
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1757, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-10 15:17:50.650
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=969, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-10 15:17:51.535
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=969, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-10 15:17:52.127
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=969, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-10 15:17:52.707
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=969, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.ui 4 0 2025-11-10 15:21:05.776
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jface.internal.text.html.BrowserInformationControlInput.getHtml()" because "this.fInput" is null
+	at org.eclipse.jface.internal.text.html.BrowserInformationControl.computeSizeHint(BrowserInformationControl.java:432)
+	at org.eclipse.lsp4e.operations.hover.FocusableBrowserInformationControl.updateBrowserSize(FocusableBrowserInformationControl.java:101)
+	at org.eclipse.lsp4e.operations.hover.FocusableBrowserInformationControl.lambda$1(FocusableBrowserInformationControl.java:105)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4258)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3370)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.eclipse.ui 4 0 2025-11-10 15:21:37.680
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jface.internal.text.html.BrowserInformationControlInput.getHtml()" because "this.fInput" is null
+	at org.eclipse.jface.internal.text.html.BrowserInformationControl.computeSizeHint(BrowserInformationControl.java:432)
+	at org.eclipse.lsp4e.operations.hover.FocusableBrowserInformationControl.updateBrowserSize(FocusableBrowserInformationControl.java:101)
+	at org.eclipse.lsp4e.operations.hover.FocusableBrowserInformationControl.lambda$1(FocusableBrowserInformationControl.java:105)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4258)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3370)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3746)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:627)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1431)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-10 15:21:45.938
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=969, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-10 15:21:53.663
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=969, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-10 15:24:10.657
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1601, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-10 15:24:10.657
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1757, length=15, tokenType=METHOD]
